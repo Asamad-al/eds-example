@@ -160,25 +160,7 @@
       }
     ]
   },
-  {
-    "id": "carousel-item",
-    "fields": [
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "image",
-        "label": "Image",
-        "multi": true
-      },
-      {
-        "component": "richtext",
-        "name": "text",
-        "label": "Text",
-        "valueType": "string",
-        "value": ""
-      }
-    ]
-  },
+
   {
     "id": "columns",
     "fields": [
