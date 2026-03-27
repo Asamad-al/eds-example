@@ -160,7 +160,25 @@
       }
     ]
   },
-
+  {
+    "id": "carousel-item",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": true
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "label": "Text",
+        "valueType": "string",
+        "value": ""
+      }
+    ]
+  },
   {
     "id": "columns",
     "fields": [
@@ -207,6 +225,18 @@
         "label": "Alt",
         "value": ""
       },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "tabs",
+    "fields": [
       {
         "component": "richtext",
         "name": "text",

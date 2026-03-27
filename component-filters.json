@@ -49,5 +49,11 @@
       "button",
       "title"
     ]
+  },
+  {
+    "id": "tabs",
+    "components": [
+      "tabs"
+    ]
   }
 ]
