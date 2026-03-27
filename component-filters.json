@@ -53,7 +53,7 @@
   {
     "id": "tabs",
     "components": [
-      "tabs"
+      "tab-item"
     ]
   }
 ]
