@@ -146,14 +146,13 @@
     "fields": [
       {
         "component": "container",
-        "name": "description",
+        "name": "description1",
         "label": "description",
-        "collapsible": true,
         "fields": [
           {
             "component": "richtext",
             "name": "description",
-            "label": "Description"
+            "label": "accordion description"
           }
         ]
       }
