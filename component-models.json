@@ -161,21 +161,46 @@
     ]
   },
   {
-    "id": "carousel-item",
+    "id": "carousel",
     "fields": [
       {
-        "component": "reference",
-        "valueType": "string",
-        "name": "image",
-        "label": "Image",
-        "multi": true
+        "component": "container",
+        "name": "slide1",
+        "label": "Slide 1",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "reference",
+            "name": "slide1Image",
+            "label": "Image"
+          }
+        ]
       },
       {
-        "component": "richtext",
-        "name": "text",
-        "label": "Text",
-        "valueType": "string",
-        "value": ""
+        "component": "container",
+        "name": "slide2",
+        "label": "Slide 2",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "reference",
+            "name": "slide2Image",
+            "label": "Image"
+          }
+        ]
+      },
+      {
+        "component": "container",
+        "name": "slide3",
+        "label": "Slide 3",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "reference",
+            "name": "slide3Image",
+            "label": "Image"
+          }
+        ]
       }
     ]
   },
