@@ -146,7 +146,7 @@
     "fields": [
       {
         "component": "container",
-        "name": "description",
+        "name": "description1",
         "label": "description",
         "collapsible": true,
         "fields": [
