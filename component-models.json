@@ -142,6 +142,24 @@
     ]
   },
   {
+    "id": "accordion",
+    "fields": [
+      {
+        "component": "container",
+        "name": "description",
+        "label": "description",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "richtext",
+            "name": "description",
+            "label": "Description"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {
