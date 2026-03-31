@@ -145,9 +145,8 @@
     "id": "accordion",
     "fields": [
       {
-        "component": "container",
-        "name": "Title1",
-        "label": "Title",
+        "component": "richtext",
+        "name": "title",
         "fields": [
           {
             "component": "richtext",
@@ -157,9 +156,8 @@
         ]
       },
       {
-        "component": "container2",
-        "name": "description1",
-        "label": "description",
+        "component": "richtext",
+        "name": "description",
         "fields": [
           {
             "component": "richtext",
