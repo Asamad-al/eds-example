@@ -22,21 +22,25 @@
       "fields": [
         {
           "component": "container",
-          "name": "items",
-          "label": "Accordion Items",
-          "multi": true,
+          "name": "Title1",
+          "label": "Title",
           "fields": [
             {
               "component": "richtext",
               "name": "title",
-              "label": "Title",
-              "valueType": "string"
-            },
+              "label": "Title"
+            }
+          ]
+        },
+        {
+          "component": "container",
+          "name": "description1",
+          "label": "description",
+          "fields": [
             {
               "component": "richtext",
               "name": "description",
-              "label": "Description",
-              "valueType": "string"
+              "label": "Description"
             }
           ]
         }
